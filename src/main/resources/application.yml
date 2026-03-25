@@ -1,0 +1,24 @@
+micronaut:
+  application:
+    name: sistema-aluguel-carros
+  server:
+    port: 8080
+  views:
+    folder: views
+
+datasources:
+  default:
+    url: jdbc:postgresql://localhost:5432/aluguelcarros
+    driverClassName: org.postgresql.Driver
+    username: postgres
+    password: ${POSTGRES_PASSWORD:root}
+
+jpa:
+  default:
+    entity-scan:
+      packages: 'com.lab02.aluguelcarros.domain'
+    properties:
+      'hibernate.hbm2ddl.auto': none
+      'hibernate.show_sql': true
+      'hibernate.format_sql': true
+      'jakarta.persistence.validation.mode': none

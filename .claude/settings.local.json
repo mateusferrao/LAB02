@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:guides.micronaut.io)",
+      "WebFetch(domain:micronaut-projects.github.io)",
+      "WebFetch(domain:mvnrepository.com)",
+      "WebFetch(domain:github.com)"
+    ]
+  }
+}
