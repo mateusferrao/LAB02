@@ -11,3 +11,7 @@
 ## Diagrama de Classes
 
 ![Diagrama de Classes](docs/lab02%20-%20sprint%201%20-%20diagrama%20de%20classes.png)
+
+## Diagrama de Componentes
+
+![Diagrama de Componentes](docs/lab02%20-%20sprint%202%20-%20diagrama%20de%20componentes.png)
