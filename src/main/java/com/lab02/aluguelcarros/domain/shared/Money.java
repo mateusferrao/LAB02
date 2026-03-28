@@ -1,9 +1,11 @@
 package com.lab02.aluguelcarros.domain.shared;
 
+import io.micronaut.core.annotation.Introspected;
 import jakarta.persistence.Embeddable;
 import java.math.BigDecimal;
 import java.util.Objects;
 
+@Introspected
 @Embeddable
 public class Money {
 
